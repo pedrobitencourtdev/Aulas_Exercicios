@@ -9,6 +9,7 @@ time.sleep(1)
 salario = float(input('Qual valor do seu salário? R$ '))
 casa = float(input('Qual o valor da Casa? R$ '))
 anos = int(input('Em quantos anos você quer kitar a casa? '))
+#aqui pegamos 30% do salário do comprador, ai multipliquei a quantidade de anos vezes 12, e dividi pelo valor da Casa
 min = (salario * 30) / 100
 prestacao = casa / (anos * 12)
 
