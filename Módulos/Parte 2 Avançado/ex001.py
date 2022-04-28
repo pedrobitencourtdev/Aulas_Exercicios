@@ -22,7 +22,6 @@ if prestacao <= min:
 
 else:
     print('Não Conseguimos aprovar seu Empréstimo', 'Status', '\033[1;31mNEGADO')
-
 #================FIM==================#
 
 
