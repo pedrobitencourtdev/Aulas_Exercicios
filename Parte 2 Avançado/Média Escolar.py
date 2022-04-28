@@ -19,3 +19,4 @@ elif media >= 7.0:
     print('Calculando nota...')
     sleep(3)
     print('Sua média foi {:.1f} você está: \033[1;32mAPROVADO'.format(media))
+#===========================Fim==============================
