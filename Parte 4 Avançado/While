@@ -1,1 +1,7 @@
-While
+teoria
+enquanto o c for menor que 10 ele vai printar Fim e adicionar +1 no contador
+c = 1
+while c < 10:
+    print('Fim')
+    c += + 1
+print('Fim')
