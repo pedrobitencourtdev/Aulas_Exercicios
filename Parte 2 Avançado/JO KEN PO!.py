@@ -6,7 +6,7 @@ jogador = int(input('Escolha sua opção: \n[0] - Pedra \n[1] - Papel \n[2] - Te
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = random.randint(0, 2) #randomizar de tanto a tanto
 print('-=' * 15)
-#print('\033[1;33mO computador escolheu: {}'.format(itens[computador])) #se eu quiser colocar os itens por nome só seguir esse passo aqui!
+ #se eu quiser colocar os itens por nome só seguir esse passo aqui!
 print('\033[1;32mO você escolheu: {}\033[m'.format(itens[jogador]))
 print('-=' * 15)
 placarJ = 0
