@@ -5,3 +5,4 @@ while c < 10:
     print('Fim')
     c += + 1
 print('Fim')
+enquanto a variável escolhida for diferente do valor escolhido ele vai repetir.
