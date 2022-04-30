@@ -22,12 +22,14 @@ while opcao != 5:
         else:
             maior = n2
             print('Entre {} e {} o maior valor é {}'.format(n1, n2, maior))
-    elif opcao == 4:#reuniciar o programa
+    elif opcao == 4:#reiniciar o programa
         print('Informe os números novamente')
         n1 = int(input('Primeiro valor: '))
         n2 = int(input('Segundo valor. '))
     elif opcao == 5:
         print('Finalizando...')
         sleep(2)
+    elif opcao != '12345':
+        print('Opção inválida')
 print('=' * 30)
 print('Fim do programa! Volte sempre!')
