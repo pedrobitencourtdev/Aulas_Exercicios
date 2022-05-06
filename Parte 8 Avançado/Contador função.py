@@ -1,31 +1,3 @@
-# função com calculo de terreno
-from time import sleep
-
-
-def calcular_terreno():
-    cumprimento = float(input('cumprimento do Terreno: '))
-    largura = float(input('Largura do Terreno: '))
-    area = largura * cumprimento
-    tamanho = area / 2
-    print(f'A área de um terreno com {cumprimento:.2f}m de cumprimento e {largura:.2f}m de largura é {tamanho:.2f}m²')
-
-
-# Função para Printar linhas com mensagem no meio
-def mensagem(msg):
-    print('-' * 30)
-    print(f'{msg:^30}')
-    print('-' * 30)
-
-
-# Função que escreve na tela com linhas adaptáveis
-def escreva(txt):
-    tam = len(txt) + 4
-    print('~' * tam)
-    print(f'  {txt:}')
-    print('~' * tam)
-
-
-# função que conta de trás pra frente e visse versa obs: Requer função sleep
 # função que conta pulando números
 from time import sleep
 
@@ -56,14 +28,13 @@ def contador():
         for i in range(inicio, fim, passo,):
             print(i, end=' ')
             sleep(0.3)
-        print('FIM!')
-        print('-' * 30)
+            print('FIM!')
+            print('-' * 30)
     else:
         while inicio >= fim:
             print(inicio, end=' ')
             inicio -= passo
             sleep(0.5)
         print('FIM!')
-        print('-' * 30)
 
-
+contador()
