@@ -1,6 +1,6 @@
 #contador regressivo para fogos de artifícios for in range laços de repetições
 from time import sleep
-from emoji import emojize
+#import emoji
 x = 'Você está preparado?'
 print('-=' * 10)
 print('{:=^10}'.format(x))
@@ -10,5 +10,4 @@ for c in range(cont, 0, -1):
     cont += -1
     sleep(1)
     print(cont)
-
-print('BoOoooOoM! Feliz Ano Novo! {}'.format(emojize(':sparkles:')))
+print('BoOoooOoM! Feliz Ano Novo!')

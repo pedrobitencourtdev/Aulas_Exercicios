@@ -1,4 +1,4 @@
-def vermelho(tex=0,cor=True):
+def vermelho(tex=0):
     vermelho = f'\033[1;31m{tex}\033[m'
     return vermelho
 
